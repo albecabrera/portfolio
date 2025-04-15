@@ -1,7 +1,43 @@
 h1 {
-    color: blue;
+    color: orange;
 }
 
 h2 {
     color:blueviolet
+}
+
+.texto {
+    color: green;
+    font-style:;
+}
+
+h2 span {
+    color: blue;
+}
+
+p, span {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.preserve {
+    white-space: pre;
+}
+.loco {
+    color: pink
+}
+
+.sombra {
+   text-shadow: 2px 3px 4px blue;
 }
