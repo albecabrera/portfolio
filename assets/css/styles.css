@@ -41,3 +41,31 @@ p, span {
 .sombra {
    text-shadow: 2px 3px 4px blue;
 }
+
+.bloque {
+    background-color: green;
+    display: inline-block
+    padding: 100px;
+    margin: 10px;
+    
+}
+
+.borde {
+    display: inline-block; 
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    border-style: outset;
+    border-width: 15px;
+    border-top-color: blue;
+    border-bottom-color: green;
+    border-left-color: yellow;
+    border-right-color: orange;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.contorno {
+    
+}
